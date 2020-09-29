@@ -3,12 +3,16 @@
 . . . . . . . . . . . . . . . . 
 . . . . . . 3 3 3 3 . . . . . . 
 . . . . . 3 3 . . . 3 3 . . . . 
+. . . 3 . . . . 3 3 3 . . . 3 . 
+. . . 3 . . . . 3 3 3 . . . 3 . 
+
+. . . 3 . . . . 3 3 3 . . . 3 . 
 . . . 3 3 3 . . . . . . 3 3 . . 
 . . . 3 . 3 . . . . . . . 3 . . 
 . . . 3 . 3 . 3 3 3 3 . . 3 3 . 
 . . . 3 . . . 3 3 3 3 . . . 3 . 
 . . . 3 . . . . 3 3 3 . . . 3 . 
-. . . 3 . . . . 3 3 3 . . . 3 . 
+
 . . . . 3 . . . . . . . . . 3 . 
 . . . . . 3 . . . . . . . 3 . . 
 . . . . . . 3 3 . . . . . 3 . . 
@@ -32,4 +36,6 @@
 . . . 2 2 . . . 2 . . 2 2 2 2 . 
 . . . . 2 2 2 2 2 . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`, [myTiles.transparency16,sprites.castle.tileDarkGrass2,sprites.builtin.forestTiles25,sprites.castle.tileGrass2], TileScale.Sixteen)</field><next><block type="mapplaceonrandomtile" id="*#`N$.SyK8B96}doy+b-"><value name="sprite"><block type="variables_get" id="!zqt@HP7YzS]BsNbnhF|"><field name="VAR" id="36a2qGvI50S0,|3}:^W9">mySprite</field></block></value><value name="tile"><shadow type="tileset_tile_picker" id="Vsj7xU7{ksKd}EiUDc:8"><field name="tile">sprites.castle.tileGrass2</field></shadow></value><next><block type="camerafollow" id="SwO/E?KKgj+Av,uEnWNi"><value name="sprite"><block type="variables_get" id="akRmZBMkuQ?j]8}NB:I3"><field name="VAR" id="36a2qGvI50S0,|3}:^W9">mySprite</field></block></value><next><block type="gamecountdown" id="7U}FpGiEe.4jx40!W1^E"><value name="duration"><shadow type="math_number" id="ip1Fdh}Q=J@ni(0zCs:3"><field name="NUM">10</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="spriteshittile" id="B`c654)y3_ZX_{wVqQru" x="0" y="470"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="Z)gNvwHiG2|d1g#EVBoG"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="p0dJ(1GN6K_r+zT@jyeh"><field name="MEMBER">Player</field></shadow></value><value name="tile"><shadow type="tileset_tile_picker" id="WTvgrAFOzRk3YA3sol|`"><field name="tile">sprites.castle.tileDarkGrass2</field></shadow></value><value name="HANDLER_DRAG_PARAM_location"><shadow type="argument_reporter_custom" id="lGk/h]Z9xl(y$9;v?=LT"><mutation typename="tiles.Location"/><field name="VALUE">location</field></shadow></value><statement name="HANDLER"><block type="gameOver" id="j@2`x+-0lV(TbN1/KmW$"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="win"><shadow type="toggleWinLose" id="-Zd(=;E]/_%k=/!T9sT]"><field name="win">true</field></shadow></value></block></statement></block></xml>
+`, [myTiles.transparency16,sprites.castle.tileDarkGrass2,sprites.builtin.forestTiles25,sprites.castle.tileGrass2], 
+
+TileScale.Sixteen)</field><next><block type="mapplaceonrandomtile" id="*#`N$.SyK8B96}doy+b-"><value name="sprite"><block type="variables_get" id="!zqt@HP7YzS]BsNbnhF|"><field name="VAR" id="36a2qGvI50S0,|3}:^W9">mySprite</field></block></value><value name="tile"><shadow type="tileset_tile_picker" id="Vsj7xU7{ksKd}EiUDc:8"><field name="tile">sprites.castle.tileGrass2</field></shadow></value><next><block type="camerafollow" id="SwO/E?KKgj+Av,uEnWNi"><value name="sprite"><block type="variables_get" id="akRmZBMkuQ?j]8}NB:I3"><field name="VAR" id="36a2qGvI50S0,|3}:^W9">mySprite</field></block></value><next><block type="gamecountdown" id="7U}FpGiEe.4jx40!W1^E"><value name="duration"><shadow type="math_number" id="ip1Fdh}Q=J@ni(0zCs:3"><field name="NUM">10</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="spriteshittile" id="B`c654)y3_ZX_{wVqQru" x="0" y="470"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="Z)gNvwHiG2|d1g#EVBoG"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="p0dJ(1GN6K_r+zT@jyeh"><field name="MEMBER">Player</field></shadow></value><value name="tile"><shadow type="tileset_tile_picker" id="WTvgrAFOzRk3YA3sol|`"><field name="tile">sprites.castle.tileDarkGrass2</field></shadow></value><value name="HANDLER_DRAG_PARAM_location"><shadow type="argument_reporter_custom" id="lGk/h]Z9xl(y$9;v?=LT"><mutation typename="tiles.Location"/><field name="VALUE">location</field></shadow></value><statement name="HANDLER"><block type="gameOver" id="j@2`x+-0lV(TbN1/KmW$"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="win"><shadow type="toggleWinLose" id="-Zd(=;E]/_%k=/!T9sT]"><field name="win">true</field></shadow></value></block></statement></block></xml>
