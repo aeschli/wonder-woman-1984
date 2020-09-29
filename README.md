@@ -5,7 +5,7 @@
 
 ## Use as Extension
 
-To edit this repository in MakeCode.
+
 
 * open [https://arcade.makecode.com/](https://arcade.makecode.com/)
 * click on **Import** then click on **Import URL**
