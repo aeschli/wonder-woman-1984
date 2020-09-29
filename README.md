@@ -5,6 +5,12 @@
 
 ## Use as Extension
 
+To edit this repository in MakeCode.
+
+* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
+* click on **Import** then click on **Import URL**
+* paste **https://github.com/aeschli/wonder-woman-1984** and click import
+
 This repository can be added as an **extension** in MakeCode.
 
 * open [https://arcade.makecode.com/](https://arcade.makecode.com/)
@@ -14,11 +20,7 @@ This repository can be added as an **extension** in MakeCode.
 
 ## Edit this project ![Build status badge](https://github.com/aeschli/wonder-woman-1984/workflows/MakeCode/badge.svg)
 
-To edit this repository in MakeCode.
 
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/aeschli/wonder-woman-1984** and click import
 
 ## Blocks preview
 
